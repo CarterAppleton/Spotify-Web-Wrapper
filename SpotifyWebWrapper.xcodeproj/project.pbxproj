@@ -13,6 +13,13 @@
 		AD18A4C41AB8A0CE00D1523D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD18A4C31AB8A0CE00D1523D /* Images.xcassets */; };
 		AD18A4C71AB8A0CE00D1523D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD18A4C51AB8A0CE00D1523D /* LaunchScreen.xib */; };
 		AD18A4D31AB8A0CE00D1523D /* SpotifyWebWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4D21AB8A0CE00D1523D /* SpotifyWebWrapperTests.swift */; };
+		AD18A4DE1AB8A0E900D1523D /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4DD1AB8A0E900D1523D /* Spotify.swift */; };
+		AD18A4E01AB8A0F600D1523D /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4DF1AB8A0F600D1523D /* JSONJoy.swift */; };
+		AD18A4E51AB8A0FD00D1523D /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4E11AB8A0FD00D1523D /* HTTPRequestSerializer.swift */; };
+		AD18A4E61AB8A0FD00D1523D /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4E21AB8A0FD00D1523D /* HTTPResponseSerializer.swift */; };
+		AD18A4E71AB8A0FD00D1523D /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4E31AB8A0FD00D1523D /* HTTPTask.swift */; };
+		AD18A4E81AB8A0FD00D1523D /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4E41AB8A0FD00D1523D /* HTTPUpload.swift */; };
+		AD18A4EE1AB8BB8000D1523D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4ED1AB8BB8000D1523D /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,15 @@
 		AD18A4CC1AB8A0CE00D1523D /* SpotifyWebWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyWebWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD18A4D11AB8A0CE00D1523D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD18A4D21AB8A0CE00D1523D /* SpotifyWebWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebWrapperTests.swift; sourceTree = "<group>"; };
+		AD18A4DD1AB8A0E900D1523D /* Spotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
+		AD18A4DF1AB8A0F600D1523D /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
+		AD18A4E11AB8A0FD00D1523D /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
+		AD18A4E21AB8A0FD00D1523D /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
+		AD18A4E31AB8A0FD00D1523D /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		AD18A4E41AB8A0FD00D1523D /* HTTPUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
+		AD18A4EB1AB8BB8000D1523D /* SpotifyWebWrapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyWebWrapper-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD18A4EC1AB8BB8000D1523D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		AD18A4ED1AB8BB8000D1523D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,8 @@
 			children = (
 				AD18A4BC1AB8A0CE00D1523D /* AppDelegate.swift */,
 				AD18A4BE1AB8A0CE00D1523D /* ViewController.swift */,
+				AD18A4DC1AB8A0D500D1523D /* Spotify */,
+				AD18A4EB1AB8BB8000D1523D /* SpotifyWebWrapper-Bridging-Header.h */,
 				AD18A4C01AB8A0CE00D1523D /* Main.storyboard */,
 				AD18A4C31AB8A0CE00D1523D /* Images.xcassets */,
 				AD18A4C51AB8A0CE00D1523D /* LaunchScreen.xib */,
@@ -110,6 +128,45 @@
 				AD18A4D11AB8A0CE00D1523D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD18A4DC1AB8A0D500D1523D /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				AD18A4E91AB8A0FF00D1523D /* JSON Parser */,
+				AD18A4EA1AB8A10800D1523D /* HTTP Requests */,
+				AD18A4EF1AB8BBA100D1523D /* Progress HUD */,
+				AD18A4DD1AB8A0E900D1523D /* Spotify.swift */,
+			);
+			name = Spotify;
+			sourceTree = "<group>";
+		};
+		AD18A4E91AB8A0FF00D1523D /* JSON Parser */ = {
+			isa = PBXGroup;
+			children = (
+				AD18A4DF1AB8A0F600D1523D /* JSONJoy.swift */,
+			);
+			name = "JSON Parser";
+			sourceTree = "<group>";
+		};
+		AD18A4EA1AB8A10800D1523D /* HTTP Requests */ = {
+			isa = PBXGroup;
+			children = (
+				AD18A4E11AB8A0FD00D1523D /* HTTPRequestSerializer.swift */,
+				AD18A4E21AB8A0FD00D1523D /* HTTPResponseSerializer.swift */,
+				AD18A4E31AB8A0FD00D1523D /* HTTPTask.swift */,
+				AD18A4E41AB8A0FD00D1523D /* HTTPUpload.swift */,
+			);
+			name = "HTTP Requests";
+			sourceTree = "<group>";
+		};
+		AD18A4EF1AB8BBA100D1523D /* Progress HUD */ = {
+			isa = PBXGroup;
+			children = (
+				AD18A4EC1AB8BB8000D1523D /* MBProgressHUD.h */,
+				AD18A4ED1AB8BB8000D1523D /* MBProgressHUD.m */,
+			);
+			name = "Progress HUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD18A4E81AB8A0FD00D1523D /* HTTPUpload.swift in Sources */,
+				AD18A4E71AB8A0FD00D1523D /* HTTPTask.swift in Sources */,
+				AD18A4E01AB8A0F600D1523D /* JSONJoy.swift in Sources */,
+				AD18A4DE1AB8A0E900D1523D /* Spotify.swift in Sources */,
+				AD18A4EE1AB8BB8000D1523D /* MBProgressHUD.m in Sources */,
+				AD18A4E61AB8A0FD00D1523D /* HTTPResponseSerializer.swift in Sources */,
+				AD18A4E51AB8A0FD00D1523D /* HTTPRequestSerializer.swift in Sources */,
 				AD18A4BF1AB8A0CE00D1523D /* ViewController.swift in Sources */,
 				AD18A4BD1AB8A0CE00D1523D /* AppDelegate.swift in Sources */,
 			);
@@ -338,9 +402,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SpotifyWebWrapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyWebWrapper/SpotifyWebWrapper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +415,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SpotifyWebWrapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyWebWrapper/SpotifyWebWrapper-Bridging-Header.h";
 			};
 			name = Release;
 		};
