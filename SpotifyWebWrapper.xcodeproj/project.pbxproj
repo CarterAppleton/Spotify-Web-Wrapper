@@ -14,12 +14,12 @@
 		AD18A4C71AB8A0CE00D1523D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD18A4C51AB8A0CE00D1523D /* LaunchScreen.xib */; };
 		AD18A4D31AB8A0CE00D1523D /* SpotifyWebWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4D21AB8A0CE00D1523D /* SpotifyWebWrapperTests.swift */; };
 		AD18A4DE1AB8A0E900D1523D /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4DD1AB8A0E900D1523D /* Spotify.swift */; };
-		AD18A4E01AB8A0F600D1523D /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4DF1AB8A0F600D1523D /* JSONJoy.swift */; };
-		AD18A4E51AB8A0FD00D1523D /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4E11AB8A0FD00D1523D /* HTTPRequestSerializer.swift */; };
-		AD18A4E61AB8A0FD00D1523D /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4E21AB8A0FD00D1523D /* HTTPResponseSerializer.swift */; };
-		AD18A4E71AB8A0FD00D1523D /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4E31AB8A0FD00D1523D /* HTTPTask.swift */; };
-		AD18A4E81AB8A0FD00D1523D /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4E41AB8A0FD00D1523D /* HTTPUpload.swift */; };
-		AD18A4EE1AB8BB8000D1523D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4ED1AB8BB8000D1523D /* MBProgressHUD.m */; };
+		AD18A4F41AB8C49A00D1523D /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4F01AB8C49A00D1523D /* HTTPRequestSerializer.swift */; };
+		AD18A4F51AB8C49A00D1523D /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4F11AB8C49A00D1523D /* HTTPResponseSerializer.swift */; };
+		AD18A4F61AB8C49A00D1523D /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4F21AB8C49A00D1523D /* HTTPTask.swift */; };
+		AD18A4F71AB8C49A00D1523D /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4F31AB8C49A00D1523D /* HTTPUpload.swift */; };
+		AD18A4F91AB8C4A200D1523D /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4F81AB8C4A200D1523D /* JSONJoy.swift */; };
+		AD18A4FC1AB8C4AB00D1523D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AD18A4FB1AB8C4AB00D1523D /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 		AD18A4D11AB8A0CE00D1523D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD18A4D21AB8A0CE00D1523D /* SpotifyWebWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebWrapperTests.swift; sourceTree = "<group>"; };
 		AD18A4DD1AB8A0E900D1523D /* Spotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
-		AD18A4DF1AB8A0F600D1523D /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
-		AD18A4E11AB8A0FD00D1523D /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
-		AD18A4E21AB8A0FD00D1523D /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
-		AD18A4E31AB8A0FD00D1523D /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
-		AD18A4E41AB8A0FD00D1523D /* HTTPUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
 		AD18A4EB1AB8BB8000D1523D /* SpotifyWebWrapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyWebWrapper-Bridging-Header.h"; sourceTree = "<group>"; };
-		AD18A4EC1AB8BB8000D1523D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		AD18A4ED1AB8BB8000D1523D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		AD18A4F01AB8C49A00D1523D /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPRequestSerializer.swift; path = "HTTP Requests/HTTPRequestSerializer.swift"; sourceTree = "<group>"; };
+		AD18A4F11AB8C49A00D1523D /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPResponseSerializer.swift; path = "HTTP Requests/HTTPResponseSerializer.swift"; sourceTree = "<group>"; };
+		AD18A4F21AB8C49A00D1523D /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPTask.swift; path = "HTTP Requests/HTTPTask.swift"; sourceTree = "<group>"; };
+		AD18A4F31AB8C49A00D1523D /* HTTPUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPUpload.swift; path = "HTTP Requests/HTTPUpload.swift"; sourceTree = "<group>"; };
+		AD18A4F81AB8C4A200D1523D /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONJoy.swift; path = "JSON Parser/JSONJoy.swift"; sourceTree = "<group>"; };
+		AD18A4FA1AB8C4AB00D1523D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "Progress HUD/MBProgressHUD.h"; sourceTree = "<group>"; };
+		AD18A4FB1AB8C4AB00D1523D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "Progress HUD/MBProgressHUD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 		AD18A4E91AB8A0FF00D1523D /* JSON Parser */ = {
 			isa = PBXGroup;
 			children = (
-				AD18A4DF1AB8A0F600D1523D /* JSONJoy.swift */,
+				AD18A4F81AB8C4A200D1523D /* JSONJoy.swift */,
 			);
 			name = "JSON Parser";
 			sourceTree = "<group>";
@@ -152,10 +152,10 @@
 		AD18A4EA1AB8A10800D1523D /* HTTP Requests */ = {
 			isa = PBXGroup;
 			children = (
-				AD18A4E11AB8A0FD00D1523D /* HTTPRequestSerializer.swift */,
-				AD18A4E21AB8A0FD00D1523D /* HTTPResponseSerializer.swift */,
-				AD18A4E31AB8A0FD00D1523D /* HTTPTask.swift */,
-				AD18A4E41AB8A0FD00D1523D /* HTTPUpload.swift */,
+				AD18A4F01AB8C49A00D1523D /* HTTPRequestSerializer.swift */,
+				AD18A4F11AB8C49A00D1523D /* HTTPResponseSerializer.swift */,
+				AD18A4F21AB8C49A00D1523D /* HTTPTask.swift */,
+				AD18A4F31AB8C49A00D1523D /* HTTPUpload.swift */,
 			);
 			name = "HTTP Requests";
 			sourceTree = "<group>";
@@ -163,8 +163,8 @@
 		AD18A4EF1AB8BBA100D1523D /* Progress HUD */ = {
 			isa = PBXGroup;
 			children = (
-				AD18A4EC1AB8BB8000D1523D /* MBProgressHUD.h */,
-				AD18A4ED1AB8BB8000D1523D /* MBProgressHUD.m */,
+				AD18A4FA1AB8C4AB00D1523D /* MBProgressHUD.h */,
+				AD18A4FB1AB8C4AB00D1523D /* MBProgressHUD.m */,
 			);
 			name = "Progress HUD";
 			sourceTree = "<group>";
@@ -269,15 +269,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD18A4E81AB8A0FD00D1523D /* HTTPUpload.swift in Sources */,
-				AD18A4E71AB8A0FD00D1523D /* HTTPTask.swift in Sources */,
-				AD18A4E01AB8A0F600D1523D /* JSONJoy.swift in Sources */,
+				AD18A4F61AB8C49A00D1523D /* HTTPTask.swift in Sources */,
 				AD18A4DE1AB8A0E900D1523D /* Spotify.swift in Sources */,
-				AD18A4EE1AB8BB8000D1523D /* MBProgressHUD.m in Sources */,
-				AD18A4E61AB8A0FD00D1523D /* HTTPResponseSerializer.swift in Sources */,
-				AD18A4E51AB8A0FD00D1523D /* HTTPRequestSerializer.swift in Sources */,
+				AD18A4F71AB8C49A00D1523D /* HTTPUpload.swift in Sources */,
+				AD18A4F41AB8C49A00D1523D /* HTTPRequestSerializer.swift in Sources */,
+				AD18A4FC1AB8C4AB00D1523D /* MBProgressHUD.m in Sources */,
+				AD18A4F91AB8C4A200D1523D /* JSONJoy.swift in Sources */,
 				AD18A4BF1AB8A0CE00D1523D /* ViewController.swift in Sources */,
 				AD18A4BD1AB8A0CE00D1523D /* AppDelegate.swift in Sources */,
+				AD18A4F51AB8C49A00D1523D /* HTTPResponseSerializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
